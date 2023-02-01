@@ -22,6 +22,7 @@ export default function Home() {
             <code className={styles.code}>src/pages/index.tsx</code>
           </p>
           <p>Some change</p>
+          <p>Some change</p>
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
