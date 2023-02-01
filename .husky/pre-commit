@@ -1,29 +1,30 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo 'Start checking...'
+
+echo 'START CHECKING...'
 
 npm run check-types ||
 (
-  echo 'Failed type check'
+  echo 'FAILED TYPE CHECK. Please review your code'
   false;
 )
 
 npm run check-format ||
 (
-  echo 'Failed format check'
+  echo 'FAILED FORMAT CHECK. Please review your code'
   false;
 )
 
 npm run check-lint ||
 (
-  echo 'Failed lint check'
+  echo 'FAILED LINT CHECK. Please review your code'
   false;
 )
 
 npm run build ||
 (
-  echo 'Failed build'
+  echo 'OOOOPSS...something went wrong. BUILD FAILED'
 )
 
-echo 'Everything is fine'
+echo 'Everything is fine! You can commit your changes'
