@@ -3,3 +3,4 @@ yarn.lock
 node_module
 .next
 .eslintrc.js
+.versionrc.json

@@ -27,5 +27,3 @@ npm run build ||
 )
 
 echo 'Everything is fine! You can commit your changes'
-
-npx --no-install commitlint --edit "$1"
