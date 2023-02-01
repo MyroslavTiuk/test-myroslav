@@ -38,6 +38,7 @@ export default function Home() {
                 priority
               />
             </a>
+            <p>jksdsd</p>
           </div>
         </div>
 
