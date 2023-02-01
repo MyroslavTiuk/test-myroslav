@@ -58,6 +58,7 @@ export default function Home() {
               height={31}
               priority
             />
+            <p>kdlsa</p>
           </div>
         </div>
 
